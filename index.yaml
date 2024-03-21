@@ -3,6 +3,33 @@ entries:
   net-tools:
   - apiVersion: v2
     appVersion: 2.0.0
+    created: "2024-03-21T08:55:05.638550937Z"
+    description: A Simple and Stupid Network Utilities for Debugging Containers &
+      Kubernetes.
+    digest: fbab2c9005ea0f82bf17b10b99198b455b54a145a0008b068e5604bc6110a4af
+    home: https://github.com/ousiax/helm-charts
+    keywords:
+    - curl
+    - iproute2
+    - jq
+    - dnsutils
+    - netcat-openbsd
+    - net-tools
+    - nmap
+    - telnet
+    - tcpdump
+    - traceroute
+    - wget
+    maintainers:
+    - name: Jon X
+      url: https://github.com/ousiax/helm-charts
+    name: net-tools
+    type: application
+    urls:
+    - https://github.com/ousiax/helm-charts/releases/download/net-tools-0.2.0/net-tools-0.2.0.tgz
+    version: 0.2.0
+  - apiVersion: v2
+    appVersion: 2.0.0
     created: "2024-03-21T03:32:49.804779397Z"
     description: A Simple and Stupid Network Utilities for Debugging Containers &
       Kubernetes.
@@ -28,4 +55,4 @@ entries:
     urls:
     - https://github.com/ousiax/helm-charts/releases/download/net-tools-0.1.0/net-tools-0.1.0.tgz
     version: 0.1.0
-generated: "2024-03-21T03:32:49.804808772Z"
+generated: "2024-03-21T08:55:05.638559042Z"
