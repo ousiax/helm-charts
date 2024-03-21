@@ -1,0 +1,22 @@
+apiVersion: apps/v1
+kind: Deployment
+metadata:
+  namespace: default
+  name: {{ .Release.Name }}
+  labels:
+    app: net-tools
+spec:
+  replicas: 1
+  selector:
+    matchLabels:
+      app: net-tools
+  template:
+    metadata:
+      labels:
+        app: net-tools
+    spec:
+      containers:
+        - image: {{ .Values.image.repository }}
+          imagePullPolicy: {{ .Values.image.pullPolicy }}
+          name: net-tools
+          command: ["tail", "-f", "/dev/null"]

@@ -1,0 +1,3 @@
+image:
+  repository: docker.io/qqbuby/net-tools:2.0
+  pullPolicy: IfNotPresent

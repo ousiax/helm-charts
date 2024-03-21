@@ -1,0 +1,23 @@
+apiVersion: v2
+name: net-tools
+description: A Simple and Stupid Network Utilities for Debugging Containers & Kubernetes.
+type: application
+version: 0.1.0
+appVersion: "2.0.0"
+keywords:
+  - curl
+  - iproute2
+  - jq
+  - dnsutils
+  - netcat-openbsd
+  - net-tools
+  - nmap
+  - telnet
+  - tcpdump
+  - traceroute
+  - wget
+home: https://github.com/ousiax/helm-charts
+icon:
+maintainers:
+- name: Jon X
+  url: https://github.com/ousiax/helm-charts
