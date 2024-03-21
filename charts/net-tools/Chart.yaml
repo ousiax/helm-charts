@@ -2,7 +2,7 @@ apiVersion: v2
 name: net-tools
 description: A Simple and Stupid Network Utilities for Debugging Containers & Kubernetes.
 type: application
-version: 0.1.0
+version: 0.2.0
 appVersion: "2.0.0"
 keywords:
   - curl
